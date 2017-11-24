@@ -1,15 +1,4 @@
 <!doctype html>
-
-@extands('layouts.app')
-@section('title','page Title')
-@section('sidebar')
-  @parent
-  <p> ths is appended to the master sidebar.</p>
-@endsection
-
-@section('content')
-  <p> this is my body content.</p>
-@endsection
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
